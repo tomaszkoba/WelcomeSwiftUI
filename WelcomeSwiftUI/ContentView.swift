@@ -18,6 +18,11 @@ struct ContentView: View {
                 .foregroundColor(.green)
             Text("third")
                 .foregroundColor(.red)
+            Image("great-place")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .cornerRadius(60)
+                .padding(.all)
             HStack{
                 Text("left")
                 Text("right")
